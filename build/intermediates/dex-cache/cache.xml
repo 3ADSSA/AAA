@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\BuyMen\shoppingbwiedemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3f8551429bcd12598a5256a29fef6257837d2d6">
+        <dex dex="E:\BuyMen\shoppingbwiedemo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e4cb49bed98bbf0ac82ea8e80c4d0da571ec7e9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BuyMen\shoppingbwiedemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\BuyMen\shoppingbwiedemo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2c26d71853951c12f4f30324e7a3030b17f22d38\classes.dex" />
+    </item>
+
+</items>

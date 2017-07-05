@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="购物车"
+        android:background="#FFF9550A"
+        android:textColor="#FFF5F5F5"
+        android:gravity="center"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/cartTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物车为空  去逛逛吧"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

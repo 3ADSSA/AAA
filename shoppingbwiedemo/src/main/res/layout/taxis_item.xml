@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFE9E7E7"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvComposite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="综合排序"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tvMoods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人气排序"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tvHight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="价格从高到底"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tvLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="价格从低到高"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:padding="10dp"/>
+
+</LinearLayout>
